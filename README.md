@@ -30,3 +30,10 @@ Aplikasi kebencanaan lintas platform (*cross-platform*) berbasis **.NET MAUI** y
 2. *Clone repository* ini ke komputer lokal:
 ```bash
    git clone [https://github.com/username/repo-name.git](https://github.com/username/repo-name.git)
+3. Buka Project: Jalankan Visual Studio 2022, pilih Open a project or solution, lalu arahkan ke file .sln (Solution) di dalam folder hasil clone.
+
+4. Restore Packages: Tunggu beberapa saat hingga Visual Studio selesai melakukan restore NuGet packages secara otomatis.
+
+5. Pilih Target Device: Pada menu top bar, pilih target device untuk running aplikasi (misalnya: Windows Machine atau Android Emulator).
+
+6. Build & Run: Tekan tombol F5 atau klik ikon Play/Run. Aplikasi akan dikompilasi dan langsung terbuka di perangkat target.
